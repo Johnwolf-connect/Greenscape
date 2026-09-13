@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/site" }
+    { "source": "/styles.css", "destination": "/api/proxy?kind=css" },
+    { "source": "/app.js", "destination": "/api/proxy?kind=js" }
   ]
 }
