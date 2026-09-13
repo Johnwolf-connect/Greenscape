@@ -1,0 +1,19 @@
+{
+  "name": "greenscape-scroll-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@vitejs/plugin-react": "latest",
+    "gsap": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  }
+}
